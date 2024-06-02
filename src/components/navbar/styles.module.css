@@ -1,0 +1,23 @@
+.list {
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  column-gap: 4em;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  justify-content: start;
+}
+
+.listItem {
+  color: black;
+}
+
+.disableItem, .disableItem:hover {
+  color: gray;
+}
+
+
+.googleButton {
+  margin-left: auto;
+}

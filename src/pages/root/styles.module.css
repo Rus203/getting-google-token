@@ -1,0 +1,8 @@
+.root {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+  width: 100 vw;
+  height: 100vh;
+  margin: 0 1.5em;
+}
