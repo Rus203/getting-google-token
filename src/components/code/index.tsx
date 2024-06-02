@@ -2,12 +2,11 @@ import { CodeBlock } from "react-code-block";
 import styles from "./styles.module.css";
 import { useCopyToClipboard } from "react-use";
 import { themes } from "prism-react-renderer";
+import { toJson } from "../../utils";
 
 type Prop = {
   code: any;
 };
-
-const toJson = (data: any) => JSON.stringify(data, null, 4);
 
 export const Code = ({ code }: Prop) => {
   const [allCodeState, copyToClipboardAll] = useCopyToClipboard();
